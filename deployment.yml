@@ -23,7 +23,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: amazon-container
-        image: obaa3/amazon:latest
+        image: obaa3/amazon:
         ports:
         - containerPort: 3000
         
